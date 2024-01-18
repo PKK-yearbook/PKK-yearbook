@@ -19,7 +19,7 @@ return new class extends Migration
             $table->unsignedInteger('angkatan');
             $table->string('julukan_sekolah', 50);
         });
-        
+
     }
 
     /**
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('sekolahs');
+        Schema::dropIfExists('sekolah');
     }
 };
