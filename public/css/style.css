@@ -1,0 +1,13 @@
+/* @font-face { */
+    /* font-family: 'OpenTGype'; */
+    /* src: url('../font/Goldman-Regular.ttf') format('ttf'); */
+    /* Add additional font formats if necessary */
+    /* font-weight: normal; */
+    /* font-style: normal; */
+/* } */
+
+body {
+    background-color: #171924;
+    font-family: 'Goldman', sans-serif;
+}
+
