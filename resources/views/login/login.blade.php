@@ -23,11 +23,11 @@
 
 <body>
     <div class="container h-100 d-flex align-items-center justify-content-center"
-        style="padding-top: 250px; font-family: 'Goldman', sans-serif;">
+        style="padding-top: 220px; font-family: 'Goldman', sans-serif;">
         <div class="row d-flex justify-content-center align-items-center accordion ">
         <div class="col" style="text-align: center; align-items: center;  ">
             <h2 style="color:white">IDENTIFICATION VERIFICATION HERE</h1>
-                <form action="">
+                <form action="" method="POST">
                     <input type="text" name="username" id="" style="width: 500px; text-align: center;" placeholder="[your name or code here]" class="mt-3">
                     <br>
                     <input type="password" name="password" id="" placeholder="[password here]" style="width: 500px; text-align: center;" class="mt-3">
