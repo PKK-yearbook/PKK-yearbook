@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [LoginController::class, 'index']);
-Route::get('/', [LandingPageController::class, 'index']);
+Route::get('landingpage', [LandingPageController::class, 'index']);

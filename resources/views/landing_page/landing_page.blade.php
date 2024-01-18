@@ -34,7 +34,7 @@
         <img src="{{ asset('img/logo_smkn1.jpg')}}" class="w-25">
             <h4 class="d-flex justify-content-center align-items-center" style="color:white; padding-top: 10px;">[SMK NEGERI 1 KOTA BEKASI]</h4>
         </div>
-        <button type="submit" class="btn px-5" style="color: #2A7DAC"> [ VERIFY IDENTIFICATION HERE ]</button>
+        <a type="submit" class="btn px-5" style="color: #2A7DAC" href="/"> [ VERIFY IDENTIFICATION HERE ]</a>
     </div>
     </div>
     <script src="/js/app.js"></script>
