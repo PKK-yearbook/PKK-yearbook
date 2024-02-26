@@ -10,4 +10,8 @@ class LoginController extends Controller
     public function index(){
         return view('login.login');
     }
+
+    public function landing_page(){
+        return view('landing_page.landing_page');
+    }
 }
